@@ -1,0 +1,22 @@
+{
+  "name": "mediakey-sync",
+  "version": "1.0.0",
+  "description": "Sync media keys between devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "iohook": "^0.6.5",
+    "os-volume-controll": "^0.1.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
